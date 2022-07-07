@@ -11,7 +11,6 @@ function App() {
         </div>
       </div>
 
-
       <div className="category-container">
         <div className="category-body-container">
           <h2>Jackets</h2>
