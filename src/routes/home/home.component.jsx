@@ -19,7 +19,7 @@ function Home() {
       id: 3,
       title: "Education",
       subtitle: "See More",
-      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+      imageUrl: "https://github.com/chrisfishbob/webstore/blob/main/poly.jpg?raw=true",
     },
     {
       id: 4,
