@@ -5,7 +5,7 @@ function Home() {
   const categories = [
     {
       id: 1,
-      title: "Hats",
+      title: "About Me",
       imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
     },
     {
@@ -25,7 +25,7 @@ function Home() {
     },
     {
       id: 5,
-      title: "Mens",
+      title: "Projects",
       imageUrl:
         "https://github.com/chrisfishbob/webstore/blob/main/Chess.jpeg?raw=true",
     },
