@@ -12,7 +12,7 @@ function Navigation() {
         </Link>
 
         <div className="links-container">
-          <Link className="nav-links-container" to="/shop">
+          <Link className="nav-links-container" to="/contact">
             CONTACT
           </Link>
         </div>
