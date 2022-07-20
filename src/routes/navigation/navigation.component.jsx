@@ -11,6 +11,10 @@ function Navigation() {
             <img src={logo} width={50}/>
         </Link>
 
+        <div className="title">
+          <h1>Chris's Companions</h1>
+        </div>
+
         <div className="links-container">
           <Link className="nav-links-container" to="/contact">
             CONTACT
