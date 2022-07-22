@@ -5,6 +5,14 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: "LightBlue",
+      subtitle: "Java Chess GUI && Move Generation",
+      urlTitle: "work-experience",
+      imageUrl:
+        "https://images.unsplash.com/photo-1580541832626-2a7131ee809f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlc3N8ZW58MHx8MHx8&w=1000&q=80",
+    },
+    {
+      id: 2,
       title: "Gomaker",
       subtitle: "Lighting-fast concurrent compiling tool",
       urlTitle: "my-story",
@@ -13,44 +21,38 @@ function Projects() {
       
     },
     {
-      id: 2,
-      title: "LightBlue",
-      subtitle: "Chess GUI && Move Generation",
-      urlTitle: "work-experience",
-      imageUrl:
-        "https://images.unsplash.com/photo-1580541832626-2a7131ee809f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlc3N8ZW58MHx8MHx8&w=1000&q=80",
-    },
-    {
       id: 3,
       title: "Argon Assault",
-      subtitle: "3D Space Shooter",
+      subtitle: "iOS 3D Space Shooter",
       urlTitle: "education",
       imageUrl:
-        "https://gradbusiness.calpoly.edu/wp-content/uploads/2020/11/20200113-CPAerials-SP0062.jpg",
+        "https://s3-us-west-2.amazonaws.com/media.brothers-brick.com/2022/05/TieFighter-FukuSaku.jpg",
     },
     {
       id: 4,
-      title: "Technical Skills",
-      subtitle: "See More",
+      title: "Radical Radish",
+      subtitle: "iOS 2D Endless Scroller",
       urlTitle: "technical-skills",
+      // imageUrl:
+      //   "https://helloartsy.com/wp-content/uploads/kids/vegetables/how-to-draw-a-radish/how-to-draw-a-radish-step-6.jpg",
       imageUrl:
-        "https://3s81si1s5ygj3mzby34dq6qf-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/ab_datacenter_generic_8888-1030x438.jpg",
+        "https://racoongrilledcheesecopy.s3.amazonaws.com/radish.PNG"
     },
     {
       id: 5,
-      title: "Projects",
-      subtitle: "See More",
+      title: "AlphaBits",
+      subtitle: "Huffman-coding Compression",
       urlTitle: "projects",
       imageUrl:
-        "https://images.unsplash.com/photo-1580541832626-2a7131ee809f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlc3N8ZW58MHx8MHx8&w=1000&q=80",
+        "https://news.mlh.io/wp-content/uploads/2015/06/Silicon-Valley.jpg",
     },
     {
       id: 6,
-      title: "Projects",
-      subtitle: "See More",
+      title: "Personal Site",
+      subtitle: "You're Looking At It Now",
       urlTitle: "projects",
       imageUrl:
-        "https://images.unsplash.com/photo-1580541832626-2a7131ee809f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlc3N8ZW58MHx8MHx8&w=1000&q=80",
+        "https://mrclown.tv/wp-content/uploads/2014/12/MC_SightWords-This.jpg",
     },
   ];
 
