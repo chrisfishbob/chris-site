@@ -5,6 +5,16 @@
     justify-content: space-between;
     margin-bottom: 25px;
   
+    .title {
+      height: 100%;
+      width: 100%;
+      text-align: left;
+      justify-content: flex-start;
+      padding-left: 45px;
+      padding-top: 10px;
+    }
+
+
     .logo-container {
       height: 100%;
       width: 70px;
