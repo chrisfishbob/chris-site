@@ -1,12 +1,11 @@
-import { Outlet, Link } from "react-router-dom";
 import { Fragment } from "react";
 import "./project-item.styles.scss";
 
 const ProjectItem = ({ project }) => {
-  const { imageUrl, title, urlTitle, subtitle } = project;
+  const { imageUrl, title, externalUrl, subtitle } = project;
   return (
     <Fragment>
-      <Link to={urlTitle} className="project-container">
+      <a className="project-container" href={externalUrl} target="_blank">
         <div
           className="background-image"
           style={{
@@ -17,7 +16,7 @@ const ProjectItem = ({ project }) => {
           <h2>{title}</h2>
           <p>{subtitle}</p>
         </div>
-      </Link>
+      </a>
     </Fragment>
   );
 };
