@@ -14,13 +14,13 @@ function Navigation() {
         <Link className="title" to="/">
           <h1> Chris Hsu</h1>
         </Link>
-        
+
         <div className="nav-links-container">
           <Link className="nav-link" to="/contact">
             CONTACT
           </Link>
           <Link className="nav-link" to="/info">
-            INFO
+            SITE-INFO
           </Link>
         </div>
       </div>

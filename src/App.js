@@ -1,5 +1,6 @@
 import Home from "./routes/home/home.component";
 import Navigation from "./routes/navigation/navigation.component";
+import Projects from "./routes/projects/projects.component";
 import { Routes, Route } from "react-router-dom";
 
 function Contact() {
@@ -24,7 +25,7 @@ function App() {
           <Route path="my-story" element={Contact}/>
           <Route path="work-experience" element={Contact}/>
           <Route path="technical-skills" element={Contact}/>
-          <Route path="projects" element={Contact}/>
+          <Route path="projects" element={<Projects></Projects>}/>
       </Route>
     </Routes>
   );
