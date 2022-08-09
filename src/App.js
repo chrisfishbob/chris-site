@@ -30,7 +30,7 @@ function App() {
     <Routes>
       {/* Render the element if the path matches*/}
       <Route path="/" element={<Navigation />}>
-        <Route index element={<Home />} />
+        <Route index element={<Projects />} />
         <Route path="contact" element={<Contact></Contact>} />
         <Route path="info" element={<SiteInfo></SiteInfo>} />
         <Route path="education" element={Contact} />
