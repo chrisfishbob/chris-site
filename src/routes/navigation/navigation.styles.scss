@@ -1,19 +1,26 @@
 .navigation {
-    height: 70px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
   
     .title {
+      display: none;
       height: 100%;
-      width: 100%;
+      width: 50%;
       text-align: left;
-      justify-content: flex-start;
+      justify-content: center;
       padding-left: 45px;
       padding-top: 10px;
+      padding-bottom: 50px;
     }
 
+    @media (min-width: 600px) {
+      .title {
+        display: block;
+      }
+    }
 
     .logo-container {
       height: 100%;
