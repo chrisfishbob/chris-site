@@ -16,12 +16,20 @@ function Navigation() {
         </Link>
 
         <div className="nav-links-container">
-          <Link className="nav-link" to="/contact">
-            CONTACT
-          </Link>
-          <Link className="nav-link" to="/info">
+          <a
+            className="nav-link-resume"
+            href="https://racoongrilledcheesecopy.s3.amazonaws.com/LatexResume.pdf"
+            target="_blank"
+          >
+            RESUME
+          </a>
+          <a
+            className="nav-link-resume"
+            href="https://github.com/chrisfishbob/chris-site"
+            target="_blank"
+          >
             SITE-INFO
-          </Link>
+          </a>
         </div>
       </div>
       <Outlet />

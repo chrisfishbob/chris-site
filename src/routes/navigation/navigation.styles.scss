@@ -20,6 +20,7 @@
   @media (max-width: 600px) {
     .title {
       font-size: 75%;
+      padding-left: 25px;
     }
   }
 
@@ -36,7 +37,17 @@
     align-items: center;
     justify-content: flex-end;
 
-    .nav-link {
+    .nav-link-contact {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    .nav-link-resume {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    .nav-link-site-info {
       padding: 10px 15px;
       cursor: pointer;
     }
