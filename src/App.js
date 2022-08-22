@@ -33,11 +33,6 @@ function App() {
         <Route index element={<Projects />} />
         <Route path="contact" element={<Contact></Contact>} />
         <Route path="info" element={<SiteInfo></SiteInfo>} />
-        <Route path="education" element={Contact} />
-        <Route path="my-story" element={<MyStory></MyStory>} />
-        <Route path="work-experience" element={Contact} />
-        <Route path="technical-skills" element={Contact} />
-        <Route path="projects" element={<Projects></Projects>} />
       </Route>
     </Routes>
   );
