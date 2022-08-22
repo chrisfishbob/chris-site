@@ -1,12 +1,16 @@
-.profile-pic {
-  width: 400px;
-  float: left;
-  padding-top: 15px;
-  vertical-align:bottom;
-}
+.my-story-container {
+    margin: 20px;
 
-.profile-text {
-  padding-top: 5px;
-  padding-left: 400px;
-  
+  .profile-pic {
+    width: 40%;
+    max-width: 500px;
+    float: left;
+    padding-top: 15px;
+    margin-right: 3%;
+  }
+
+  .profile-text {
+    width: 100%;
+    // margin-left: 40%;
+  }
 }

@@ -9,7 +9,7 @@ function MyStory() {
       <img src={imageUrl} className="profile-pic" />
       <div className="profile-text">
         <h1>Hello There!</h1>
-        <h2>I am Chris this is me typing, wow so insightful</h2>
+        <h2>I'm Chris, nice to meet you!</h2>
         <h2>I am Chris</h2>
         <h2>I am Chris</h2>
         <h2>I am Chris</h2>

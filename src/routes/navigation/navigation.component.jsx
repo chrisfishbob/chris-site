@@ -23,13 +23,9 @@ function Navigation() {
           >
             RESUME
           </a>
-          <a
-            className="nav-link-resume"
-            href="https://github.com/chrisfishbob/chris-site"
-            target="_blank"
-          >
-            SITE-INFO
-          </a>
+          <Link className="nav-link-my-story" to="/my-story">
+          MY STORY 
+          </Link>
         </div>
       </div>
       <Outlet />

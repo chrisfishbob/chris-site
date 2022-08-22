@@ -19,8 +19,9 @@
 
   @media (max-width: 600px) {
     .title {
-      font-size: 75%;
-      padding-left: 25px;
+      font-size: 70%;
+      width: 15%;
+      padding-left: 0px;
     }
   }
 
@@ -37,18 +38,13 @@
     align-items: center;
     justify-content: flex-end;
 
-    .nav-link-contact {
-      padding: 10px 15px;
-      cursor: pointer;
-    }
-
     .nav-link-resume {
-      padding: 10px 15px;
+      padding: 1vw 2vw;
       cursor: pointer;
     }
 
-    .nav-link-site-info {
-      padding: 10px 15px;
+    .nav-link-my-story {
+      padding: 1vw 1vw;
       cursor: pointer;
     }
   }
