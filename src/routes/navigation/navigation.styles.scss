@@ -17,20 +17,6 @@
     font-size: 100%;
   }
 
-  @media (max-width: 600px) {
-    .title {
-      font-size: 70%;
-      width: 15%;
-      padding-left: 0px;
-    }
-  }
-
-  .logo-container {
-    height: 100%;
-    width: 70px;
-    padding: 25px;
-  }
-
   .nav-links-container {
     width: 50%;
     height: 100%;
@@ -39,13 +25,32 @@
     justify-content: flex-end;
 
     .nav-link-resume {
-      padding: 1vw 2vw;
+      padding: 10px 15px;
       cursor: pointer;
     }
 
     .nav-link-my-story {
-      padding: 1vw 1vw;
+      padding: 10px 15px;
       cursor: pointer;
     }
+  }
+
+  @media screen and (max-width: 600px) {
+    .title {
+      font-size: 70%;
+      width: 15%;
+      padding-left: 0px;
+    }
+
+    .nav-links-container .nav-link-resume, .nav-link-my-story {
+      padding: 0;
+    }
+
+  }
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
   }
 }

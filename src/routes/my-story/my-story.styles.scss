@@ -1,11 +1,11 @@
 .left-column {
   float: left;
-  width: 75%;
+  width: 70%;
 }
 
 .right-column {
   float: left;
-  width: 25%;
+  width: 30%;
   padding-left: 20px;
 }
 
@@ -23,7 +23,24 @@
     font-size: 20px;
 }
 
-@media (max-width: 600px) {
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 3px;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  margin-top: 20px;
+
+  p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .row {
     display: flex;
     flex-flow: column;
@@ -43,5 +60,9 @@
     order: 1;
     width: 100%;
     padding: 0;
+  }
+
+  .event {
+    text-align: center;
   }
 }
