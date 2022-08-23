@@ -19,8 +19,8 @@ function App() {
     <Routes>
       {/* Render the element if the path matches*/}
       <Route path="/" element={<Navigation />}>
-        <Route index element={<Projects />} />
-        <Route path="my-story" element={<MyStory></MyStory>} />
+        <Route index element={<MyStory/>} />
+        <Route path="projects" element={<Projects/>} />
       </Route>
     </Routes>
   );

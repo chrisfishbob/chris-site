@@ -23,8 +23,8 @@ function Navigation() {
           >
             RESUME
           </a>
-          <Link className="nav-link-my-story" to="/my-story">
-          MY STORY 
+          <Link className="nav-link-my-story" to="/projects">
+          PROJECTS 
           </Link>
         </div>
       </div>
