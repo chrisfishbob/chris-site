@@ -42,12 +42,15 @@
   }
 
   .project-body-container {
-    height: 90px;
-    padding: 0 25px;
+    min-height: 10%;
+    max-width: 30%;
+
+    padding: 10 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     border: 1px solid black;
     background-color: whitesmoke;
     opacity: 0.7;
@@ -55,7 +58,7 @@
 
     h2 {
       font-weight: bold;
-      margin: 0 6px 0;
+      margin: 0 15px 0;
       font-size: 22px;
       color: #4a4a4a;
     }

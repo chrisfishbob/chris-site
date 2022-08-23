@@ -1,37 +1,51 @@
 .navigation {
-    height: 70px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
-  
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .title {
+    // display: none;
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    justify-content: center;
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 100%;
+  }
+
+  @media (max-width: 600px) {
     .title {
-      height: 100%;
-      width: 100%;
-      text-align: left;
-      justify-content: flex-start;
-      padding-left: 45px;
-      padding-top: 10px;
-    }
-
-
-    .logo-container {
-      height: 100%;
-      width: 70px;
-      padding: 25px;
-    }
-  
-    .nav-links-container {
-      width: 50%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-
-      .nav-link {
-        padding: 10px 15px;
-        cursor: pointer;
-      }
+      font-size: 70%;
+      width: 15%;
+      padding-left: 0px;
     }
   }
-  
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+  }
+
+  .nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nav-link-resume {
+      padding: 1vw 2vw;
+      cursor: pointer;
+    }
+
+    .nav-link-my-story {
+      padding: 1vw 1vw;
+      cursor: pointer;
+    }
+  }
+}
