@@ -4,6 +4,7 @@ import SpainBlog from "./blog-entries/spain-blog.component";
 import CitizenShipBlog from "./blog-entries/us-citizenship-blog.component";
 import AboutMeBlog from "./blog-entries/about-me.component";
 import LetsConnectBlog from "./blog-entries/lets-connect-blog.component";
+import { Fragment } from "react";
 
 function MyStory() {
   const obama =
@@ -13,7 +14,7 @@ function MyStory() {
     "https://gradbusiness.calpoly.edu/wp-content/uploads/2020/11/20200113-CPAerials-SP0062.jpg";
 
   return (
-    <div>
+    <Fragment>
       <div className="row">
         <div className="left-column" id="l">
           <DeloitteBlog />
@@ -23,11 +24,15 @@ function MyStory() {
 
         <div className="right-column" id="r">
           <AboutMeBlog />
-          <LetsConnectBlog/>
+          <LetsConnectBlog />
         </div>
       </div>
-      <div className="footer"></div>
-    </div>
+
+      <div className="footer">
+      
+      <p> Chris Hsu 2022 &nbsp;&nbsp;&nbsp; Made with ReactJS</p>
+      </div>
+    </Fragment>
   );
 }
 

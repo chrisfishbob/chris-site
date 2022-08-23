@@ -23,7 +23,24 @@
     font-size: 20px;
 }
 
-@media (max-width: 600px) {
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 3px;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  margin-top: 20px;
+
+  p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .row {
     display: flex;
     flex-flow: column;
@@ -43,5 +60,9 @@
     order: 1;
     width: 100%;
     padding: 0;
+  }
+
+  .event {
+    text-align: center;
   }
 }
