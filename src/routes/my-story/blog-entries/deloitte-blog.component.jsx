@@ -1,6 +1,6 @@
 function DeloitteBlog() {
   const deloitte_boat =
-    "http://d34316robnoe1k.cloudfront.net/deloitte_boat.png";
+    "http://d34316robnoe1k.cloudfront.net/deloitte_boat.jpg";
 
   return (
     <div className="event">
