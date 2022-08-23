@@ -1,0 +1,43 @@
+.left-column {
+  float: left;
+  width: 75%;
+}
+
+.right-column {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.event, .links {
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.poly-img {
+    width: 70%;
+}
+
+@media (max-width: 600px) {
+  .row {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .left-column{
+    order: 2;
+    width: 100%;
+    padding: 0;
+  }
+
+  .right-column{
+    order: 1;
+    width: 100%;
+    padding: 0;
+  }
+}
