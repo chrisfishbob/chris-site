@@ -13,6 +13,10 @@ function MyStory() {
   
   const deloitte_boat = "https://racoongrilledcheesecopy.s3.amazonaws.com/deloitte_boat.png"
 
+  const spain = "https://racoongrilledcheesecopy.s3.amazonaws.com/spain.jpeg"
+
+  const me = "https://racoongrilledcheesecopy.s3.amazonaws.com/meinspain.JPG"
+
   return (
     <div>
       <div className="row">
@@ -20,7 +24,7 @@ function MyStory() {
 
           <div className="event">
             <h1> Chris's Consulting Chronicles </h1>
-            <h3> June - August, 2022</h3>
+            <h3> Summer, 2022</h3>
             <img className="poly-img" src={deloitte_boat} />
             <p> I had the great oppurtunity to work as a Software Engineer
             this summer at Deloitte!</p>
@@ -30,6 +34,17 @@ function MyStory() {
             <p> I didn't know any of it</p>
             <p> But after many hours, 5000+ lines, and many pull requests, I've learned enough
             to build this website with everything mentioned above and deploy it!</p>
+          </div>
+
+          <div className="event">
+            <h1> Spain</h1>
+            <h3> Summer, 2022</h3>
+            <img className="poly-img" src={spain} />
+            <p> Got to visit Spain briefly for a family vacation!</p>
+            <p> I took almost no pictures so I had to borrow this picture
+            online, but Spainish food is amazing. I didn't think I liked ham before arriving at Madrid.</p>
+            <p> Editor's review: Lot's of cool architecture and ... Five Guys? </p>
+            <p> Score: 10 /10</p>
           </div>
 
           <div className="event">
@@ -55,7 +70,7 @@ function MyStory() {
         <div className="right-column" id="r">
           <div className="event">
             <h1> Hi There! </h1>
-            <img className="poly-img" src={obama} />
+            <img className="poly-img" src={me} />
             <p> I'm Chris and I'm a Computer Science student at Cal Poly SLO! </p>
             <p> I love all things computing, but I'm particularly interested
             in cloud native web / app development and low level nitty-gritty with
