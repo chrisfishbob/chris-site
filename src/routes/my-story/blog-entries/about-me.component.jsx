@@ -1,5 +1,5 @@
 function AboutMeBlog() {
-  const me = "https://racoongrilledcheesecopy.s3.amazonaws.com/meinspain.JPG";
+  const me = "http://d34316robnoe1k.cloudfront.net/meinspain.JPG";
 
   return (
     <div className="event">

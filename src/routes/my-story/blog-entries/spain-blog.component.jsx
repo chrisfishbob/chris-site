@@ -1,5 +1,5 @@
 function SpainBlog() {
-  const spain = "https://racoongrilledcheesecopy.s3.amazonaws.com/spain.jpeg";
+  const spain = "http://d34316robnoe1k.cloudfront.net/spain.jpeg";
 
   return (
     <div className="event">
