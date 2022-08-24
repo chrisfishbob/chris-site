@@ -7,12 +7,6 @@ import LetsConnectBlog from "./blog-entries/lets-connect-blog.component";
 import { Fragment } from "react";
 
 function MyStory() {
-  const obama =
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/1200px-President_Barack_Obama.jpg";
-
-  const poly =
-    "https://gradbusiness.calpoly.edu/wp-content/uploads/2020/11/20200113-CPAerials-SP0062.jpg";
-
   return (
     <Fragment>
       <div className="row">
