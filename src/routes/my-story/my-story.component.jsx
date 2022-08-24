@@ -4,6 +4,7 @@ import SpainBlog from "./blog-entries/spain-blog.component";
 import CitizenShipBlog from "./blog-entries/us-citizenship-blog.component";
 import AboutMeBlog from "./blog-entries/about-me.component";
 import LetsConnectBlog from "./blog-entries/lets-connect-blog.component";
+import SiteInfoBlog from "./blog-entries/site-info.component";
 import { Fragment } from "react";
 
 function MyStory() {
@@ -18,13 +19,15 @@ function MyStory() {
 
         <div className="right-column" id="r">
           <AboutMeBlog />
+          <SiteInfoBlog />
           <LetsConnectBlog />
         </div>
       </div>
 
       <div className="footer">
-      
-      <p> Chris Hsu 2022 &nbsp;&nbsp;&nbsp; Made with ReactJS</p>
+        <a href="https://github.com/chrisfishbob/chris-site" target="_blank">
+          <p> Chris Hsu 2022 &nbsp;&nbsp;&nbsp; Made with ReactJS</p>
+        </a>
       </div>
     </Fragment>
   );

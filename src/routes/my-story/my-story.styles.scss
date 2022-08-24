@@ -9,7 +9,7 @@
   padding-left: 20px;
 }
 
-.event, .links {
+.event, .links ,.site-info{
   background-color: rgb(240, 240, 240);
   padding: 20px;
   margin-top: 20px;
@@ -29,6 +29,19 @@
   clear: both;
 }
 
+.site-info {
+  .exp {
+    display: none;
+  }
+  dd:hover {
+    color: red;
+    & > .exp {
+      display: block;
+      color: red;
+    }
+  }
+}
+
 .footer {
   padding: 3px;
   text-align: center;
@@ -46,7 +59,7 @@
     flex-flow: column;
   }
 
-  .links {
+  .links ,.site-info {
     display: none;
   }
 
