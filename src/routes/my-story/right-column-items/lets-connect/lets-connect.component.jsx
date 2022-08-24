@@ -1,6 +1,8 @@
+import "./lets-connect.styles.scss"
+
 function LetsConnectBlog() {
   return (
-    <div className="links">
+    <div className="lets-connect-container">
       <h1> Let's Connect! </h1>
       <a href="tel:+9494452477" target="_blank">
         949-445-2477

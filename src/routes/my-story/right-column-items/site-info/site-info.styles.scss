@@ -1,0 +1,23 @@
+.site-info-container {
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  margin-top: 20px;
+
+  .expand-description {
+    display: none;
+  }
+
+  dd:hover {
+    text-decoration: underline;
+    font-weight: bold;
+
+    & > .expand-description {
+      display: block;
+      color: red;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}

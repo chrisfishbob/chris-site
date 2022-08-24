@@ -1,6 +1,8 @@
+import "./site-info.styles.scss"
+
 function SiteInfo() {
   return (
-    <div className="site-info">
+    <div className="site-info-container">
       <h1>Site Info</h1>
       <dl>
         <dt> Front End</dt>
@@ -14,10 +16,10 @@ function SiteInfo() {
         <dt>- Backend </dt>
         <dd>
           - AWS Amplify
-          <dd className="exp">More</dd>
+          <dd className="expand-description">More</dd>
         </dd>
         <dd>- AWS Route53
-          <dd className="exp">More</dd>
+          <dd className="expand-description">More</dd>
         
         </dd>
         <dd>- AWS CloudFront</dd>

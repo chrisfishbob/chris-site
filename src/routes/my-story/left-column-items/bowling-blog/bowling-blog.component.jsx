@@ -1,12 +1,14 @@
-function CitizenShipBlog() {
+import "./bowling-blog.styles.scss"
+
+function BowlingBlog() {
   const usa =
     "https://d34316robnoe1k.cloudfront.net/bowling.jpeg";
 
   return (
-    <div className="event">
+    <div className="bowling-blog-container">
       <h1> A Bowling Legend</h1>
       <h3> May, 2022</h3>
-      <img className="poly-img" src={usa} />
+      <img className="bowling-img" src={usa} />
       <p>
         A successful school year capped off with a round of bowling! 
       </p>
@@ -18,4 +20,4 @@ function CitizenShipBlog() {
   );
 }
 
-export default CitizenShipBlog
+export default BowlingBlog
