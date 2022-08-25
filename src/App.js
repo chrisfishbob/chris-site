@@ -1,7 +1,7 @@
 import Navigation from "./routes/navigation/navigation.component";
 import Projects from "./routes/projects/projects.component";
 import { Routes, Route } from "react-router-dom";
-import MyStory from "./routes/my-story/blog-page.component";
+import Home from "./routes/home/home.component"
 import "./App.scss";
 
 function Contact() {
@@ -18,7 +18,7 @@ function App() {
     <Routes>
       {/* Render the element if the path matches*/}
       <Route path="/" element={<Navigation />}>
-        <Route index element={<MyStory/>} />
+        <Route index element={<Home/>} />
         <Route path="projects" element={<Projects/>} />
       </Route>
     </Routes>

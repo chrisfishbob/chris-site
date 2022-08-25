@@ -16,10 +16,10 @@ function SiteInfo() {
         <dt>- Backend </dt>
         <dd>
           - AWS Amplify
-          <dd className="expand-description">More</dd>
+          <dd className="expand-description"> For continuous deployment and hosting.</dd>
         </dd>
         <dd>- AWS Route53
-          <dd className="expand-description">More</dd>
+          <dd className="expand-description"> For domain name regustration</dd>
         
         </dd>
         <dd>- AWS CloudFront</dd>
