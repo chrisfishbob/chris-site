@@ -1,7 +1,7 @@
 import Navigation from "./routes/navigation/navigation.component";
 import Projects from "./routes/projects/projects.component";
 import { Routes, Route } from "react-router-dom";
-import MyStory from "./routes/my-story/blog-page/blog-page.component";
+import MyStory from "./routes/my-story/blog-page.component";
 import "./App.scss";
 
 function Contact() {
