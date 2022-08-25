@@ -1,0 +1,13 @@
+.lets-connect-container {
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  margin-top: 20px;
+
+  a {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}

@@ -1,10 +1,13 @@
+import "./about-me.styles.scss"
+import {useState} from "react"
+
 function AboutMeBlog() {
   const me = "https://d34316robnoe1k.cloudfront.net/meinspain.JPG";
 
   return (
-    <div className="event">
+    <div className="about-me-container">
       <h1> Hi There! </h1>
-      <img className="poly-img" src={me} />
+      <img className={"profile-pic"} src={me} />
       <p> I'm Chris and I'm a Computer Science student at Cal Poly SLO! </p>
       <p>
         I love all things computing, but I'm particularly interested in cloud

@@ -1,12 +1,14 @@
+import "./deloitte-blog.styles.scss"
+
 function DeloitteBlog() {
   const deloitte_boat =
     "https://d34316robnoe1k.cloudfront.net/deloitte_boat.jpg";
 
   return (
-    <div className="event">
+    <div className="deloitte-blog-container">
       <h1> Chris's Consulting Chronicles </h1>
       <h3> Summer, 2022</h3>
-      <img className="poly-img" src={deloitte_boat} />
+      <img className="deloitte-img" src={deloitte_boat} />
       <p>
         I had the great oppurtunity to work as a Software Engineer this summer
         at Deloitte!

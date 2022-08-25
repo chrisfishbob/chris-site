@@ -1,58 +1,34 @@
-import { Outlet } from "react-router-dom";
-import Directory from "../../components/directory/directory.component";
+import "./home.styles.scss";
+import DeloitteBlog from "../../components/left-column-items/deloitte-blog/deloitte-blog.component";
+import SpainBlog from "../../components/left-column-items/spain-blog/spain-blog.component";
+import CitizenShipBlog from "../../components/left-column-items/bowling-blog/bowling-blog.component";
+import AboutMeBlog from "../../components/right-column-items/about-me/about-me.component";
+import LetsConnectBlog from "../../components/right-column-items/lets-connect/lets-connect.component";
+import SiteInfoBlog from "../../components/right-column-items/site-info/site-info.component";
+import Footer from "../../components/footer/footer.component";
+import { Fragment } from "react";
 
-function Home() {
-  const categories = [
-    {
-      id: 1,
-      title: "My Story",
-      subtitle: "See More",
-      urlTitle: "my-story",
-      imageUrl:
-        "https://images.unsplash.com/photo-1598935898639-81586f7d2129?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGFpcGVpfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      
-    },
-    {
-      id: 2,
-      title: "Work Experience",
-      subtitle: "See More",
-      urlTitle: "work-experience",
-      imageUrl:
-        "https://www.officelovin.com/wp-content/uploads/2016/10/deloitte-toronto-office-2.jpg",
-    },
-    {
-      id: 3,
-      title: "Education",
-      subtitle: "See More",
-      urlTitle: "education",
-      imageUrl:
-        "https://gradbusiness.calpoly.edu/wp-content/uploads/2020/11/20200113-CPAerials-SP0062.jpg",
-    },
-    {
-      id: 4,
-      title: "Technical Skills",
-      subtitle: "See More",
-      urlTitle: "technical-skills",
-      imageUrl:
-        "https://3s81si1s5ygj3mzby34dq6qf-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/ab_datacenter_generic_8888-1030x438.jpg",
-    },
-    {
-      id: 5,
-      title: "Projects",
-      subtitle: "See More",
-      urlTitle: "projects",
-      imageUrl:
-        "https://images.unsplash.com/photo-1580541832626-2a7131ee809f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlc3N8ZW58MHx8MHx8&w=1000&q=80",
-    },
-  ];
-
+function MyStory() {
   return (
-    <div>
-      {/* Location of outlet matters! */}
-      <Outlet />
-      <Directory categories={categories} />
-    </div>
+    <Fragment>
+      <div className="row">
+        <div className="left-column" id="l">
+          <DeloitteBlog />
+          <SpainBlog />
+          <CitizenShipBlog />
+        </div>
+
+        <div className="right-column" id="r">
+          <AboutMeBlog />
+          <SiteInfoBlog />
+          <LetsConnectBlog />
+        </div>
+      </div>
+
+      <Footer/>
+
+    </Fragment>
   );
 }
 
-export default Home;
+export default MyStory;

@@ -1,0 +1,15 @@
+.deloitte-blog-container {
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  margin-top: 20px;
+
+  .deloitte-img {
+    width: 70%;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    text-align: center;
+  }
+
+}
