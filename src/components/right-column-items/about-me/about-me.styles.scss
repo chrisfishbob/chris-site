@@ -2,18 +2,9 @@
   background-color: rgb(240, 240, 240);
   padding: 20px;
   margin-top: 20px;
-  animation: 1s ease-in 0s 1 about-me-slide-in forwards;
-
-  h1, p, h3{
-    // animation: 1s ease-in 0s 1 appear;
-    // animation: 1s ease-in 0s 1 appear forwards;
-    opacity: 0%;
-    animation: 1s ease-in 1s 1 hey-there-animation forwards;
-  }
 
   .profile-pic {
     animation-iteration-count: 1;
-    animation: 1s ease-in 0s 1 profile-pic-animation forwards;
     opacity: 100%;
     width: 70%;
     transition-property: opacity;
@@ -21,9 +12,22 @@
     transition-delay: 0.1s;
   }
 
-
   @media screen and (max-width: 600px) {
     text-align: center;
+    .profile-pic {
+      animation: 1s ease-in 0s 1 profile-pic-animation forwards;
+    }
+    & {
+      animation: 1s ease-in 0s 1 about-me-slide-in forwards;
+    }
+    h1,
+    p,
+    h3 {
+      // animation: 1s ease-in 0s 1 appear;
+      // animation: 1s ease-in 0s 1 appear forwards;
+      opacity: 0%;
+      animation: 1.3s ease-in 1.2s 1 hey-there-animation forwards;
+    }
   }
 
   @keyframes profile-pic-animation {
