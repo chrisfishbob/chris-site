@@ -1,0 +1,11 @@
+/* Disables scroll bar display" */
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+}

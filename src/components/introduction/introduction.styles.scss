@@ -5,6 +5,7 @@
   padding-right: 20vw;
   padding-top: 3%;
 
+  
   .my-name {
     color: rgb(204, 214, 246);
     // color: rgb(84, 214, 185);
@@ -14,22 +15,45 @@
     margin: 0;
   }
 
-  .my-description {
+  .title-description {
     color: rgb(136, 146, 176);
     // color: hotpink;
     font-size: clamp(30px, 3vw, 4vw);
     margin: 1;
   }
 
-  .hello-world{
+  .links-container {
+    padding-top: 10%;
+    width: 100vw;
+    a {
+      color: rgb(84, 214, 185);
+      border: 2px solid rgb(84, 214, 185);
+      border-radius: 5px;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-right: 2%;
+      padding-left: 2%;
+      margin-right: 5%;
+      margin-top: 20%;
+    }
+
+    a:hover{
+      background-color: rgba(84, 214, 185, 0.5);
+      border: 2px solid rgba(0, 0, 0, 0);
+      color: black
+    }
+  }
+
+
+  .hello-world {
     color: rgb(84, 214, 185);
     font-size: clamp(20px, 2vw, 4vw);
   }
 
   @media screen and (max-width: 750px) {
     & {
-      padding-left: 10%;
-      padding-right: 10%;
+      padding-left: 5%;
+      padding-right: 0%;
     }
   }
 }

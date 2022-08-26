@@ -8,7 +8,7 @@ function Navigation() {
     <Fragment>
       <div className="navigation">
         <Link className="title" to="/">
-          <h1> Chris Hsu</h1>
+          <h1> CH</h1>
         </Link>
 
         <div className="nav-links-container">
