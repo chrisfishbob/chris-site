@@ -1,0 +1,31 @@
+.intro-container {
+  width: 100vw;
+  height: 100vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 3%;
+
+  .my-name {
+    color: rgb(204, 214, 246);
+    font-size: clamp(50px, 5vw, 6vw);
+    margin: 0;
+  }
+
+  .my-description {
+    color: rgb(136, 146, 176);
+    font-size: clamp(30px, 3vw, 4vw);
+    margin: 1;
+  }
+
+  .hello-world{
+    color: rgb(84, 214, 185);
+    font-size: clamp(20px, 3vw, 5vw);
+  }
+
+  @media screen and (max-width: 600px) {
+    & {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+}

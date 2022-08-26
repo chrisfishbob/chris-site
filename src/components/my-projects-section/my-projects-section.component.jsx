@@ -1,5 +1,5 @@
-import "./deloitte-blog.styles.scss"
-import Projects from "../../../routes/projects/projects.component";
+import "./my-projects-section.styles.scss"
+import Projects from "../../routes/projects/projects.component";
 
 function DeloitteBlog() {
   const deloitte_boat =

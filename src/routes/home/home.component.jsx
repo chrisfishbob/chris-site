@@ -1,13 +1,15 @@
 import "./home.styles.scss";
-import DeloitteBlog from "../../components/left-column-items/deloitte-blog/deloitte-blog.component";
+import DeloitteBlog from "../../components/my-projects-section/my-projects-section.component";
 import Footer from "../../components/footer/footer.component";
 import { Fragment } from "react";
+import Introduction from "../../components/introduction/introduction.component";
 
 function MyStory() {
   return (
     <Fragment>
       <div className="row">
         <div className="left-column" id="l">
+          <Introduction /> 
           <DeloitteBlog />
         </div>
 
