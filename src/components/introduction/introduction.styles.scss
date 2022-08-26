@@ -1,9 +1,11 @@
 .intro-container {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   padding-left: 20vw;
   padding-right: 20vw;
   padding-top: 3%;
+  // margin-left: 15vw;
+  // padding-right: 5vw;
 
   
   .my-name {
@@ -49,11 +51,13 @@
     color: rgb(84, 214, 185);
     font-size: clamp(20px, 2vw, 4vw);
   }
+  
 
   @media screen and (max-width: 750px) {
     & {
       padding-left: 5%;
       padding-right: 0%;
+      padding-top: 20%;
     }
   }
 }

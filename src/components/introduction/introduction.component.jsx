@@ -11,7 +11,7 @@ function Introduction() {
       </div> */}
       <div className="links-container">
         <a href="https://github.com">Github</a>
-        <a href="https://linkedin.com"> LinkedIn</a>
+        <a href="https://linkedin.com/in/hsuc"> LinkedIn</a>
         <a href="https://google.com">Resume</a>
 
       </div>

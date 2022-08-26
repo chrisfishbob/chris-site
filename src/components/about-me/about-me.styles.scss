@@ -1,0 +1,28 @@
+.about-me-container {
+  width: 100%;
+  height: 90vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-bottom: 2%;
+  margin: 0;
+
+  .left {
+    width: 10%;
+    margin-right: 0;
+    margin: 0;
+
+    h1, p {
+        width: 50%;
+        margin-right: 0;
+    }
+  }
+
+  .right {
+    width: 80%;
+  }
+
+  .picture {
+    width: 40%;
+    float: right;
+  }
+}
