@@ -1,4 +1,5 @@
 import "./deloitte-blog.styles.scss"
+import Projects from "../../../routes/projects/projects.component";
 
 function DeloitteBlog() {
   const deloitte_boat =
@@ -6,24 +7,9 @@ function DeloitteBlog() {
 
   return (
     <div className="deloitte-blog-container">
-      <h1> Chris's Consulting Chronicles </h1>
-      <h3> Summer, 2022</h3>
-      <img className="deloitte-img" src={deloitte_boat} />
-      <p>
-        I had the great oppurtunity to work as a Software Engineer this summer
-        at Deloitte!
-      </p>
-      <p>
-        This website exists solely because of my time working at the firm. When I first got
-        my project details, I learnt that I had to use HTML, CSS, JavaScript,
-        AWS, and ReactJS, which was awesome, except ...
-      </p>
-      <p> I didn't know any of it.</p>
-      <p>
-        But after many hours, 5000+ lines, and many pull requests, I've learned
-        more than enough to build this website with everything mentioned above and
-        a lot more!
-      </p>
+      <h1> My Projects</h1>
+      {/* <img className="deloitte-img" src={deloitte_boat} /> */}
+      <Projects/>
     </div>
   );
 }

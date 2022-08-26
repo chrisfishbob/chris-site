@@ -3,7 +3,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  background-color: rgb(9, 25, 47);
 
   .title {
     // display: none;
@@ -11,10 +11,11 @@
     width: 50%;
     text-align: left;
     justify-content: center;
-    padding-left: 45px;
+    padding-left: 4%;
     padding-top: 10px;
     padding-bottom: 50px;
     font-size: 100%;
+    color: rgb(84, 214, 185);
   }
 
   .nav-links-container {
@@ -26,11 +27,13 @@
 
     .nav-link-resume {
       padding: 10px 15px;
+      color: rgb(84, 214, 185);
       cursor: pointer;
     }
 
     .nav-link-my-story {
       padding: 10px 15px;
+      color: rgb(84, 214, 185);
       cursor: pointer;
     }
   }
@@ -38,13 +41,6 @@
   @media screen and (max-width: 600px) {
     .title {
       font-size: 70%;
-      width: 15%;
-      padding-left: 0px;
-    }
-
-    .nav-links-container .nav-link-resume,
-    .nav-link-my-story {
-      padding: 0;
     }
   }
 

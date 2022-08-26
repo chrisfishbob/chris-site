@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid slategray;
   margin: 0 7.5px 15px;
   overflow: hidden;
 
@@ -15,10 +15,6 @@
     & .background-image {
       transform: scale(1.1);
       transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-
-    & .project-body-container {
-      opacity: 0.9;
     }
   }
 
@@ -54,15 +50,16 @@
     justify-content: center;
     text-align: center;
     border: 1px solid black;
-    background-color: whitesmoke;
-    opacity: 0.7;
+    border-radius: 10px;
+    background-color: slategrey;
+    opacity: 0.9;
     position: absolute;
 
     h2 {
       font-weight: bold;
       margin: 0 15px 0;
       font-size: 22px;
-      color: #4a4a4a;
+      color: rgb(84, 214, 185);
     }
 
     p {
@@ -76,7 +73,7 @@
   .project-container {
     width: 100%;
   }
-  .project-body-container{
+  .project-body-container {
     min-width: 42%;
   }
 
@@ -86,5 +83,4 @@
       transition: transform 1s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
   }
-
 }

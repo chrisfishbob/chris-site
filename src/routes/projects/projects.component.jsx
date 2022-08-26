@@ -5,20 +5,20 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Gomaker",
-      subtitle: "Lighting-fast concurrent compiling tool",
-      externalUrl: "https://github.com/chrisfishbob/gomaker",
-      imageUrl:
-        "https://external-preview.redd.it/lfkblswbV7VXAp-9RR0wUNlq5wEMV1RZoDsnpfeufIY.jpg?auto=webp&s=2fed4435f4956ba1d45627775ef44a11f156ff91",
-      
-    },
-    {
-      id: 2,
       title: "ReactJS Personal Site",
       subtitle: "You're Looking At It Now",
       externalUrl: "/",
       imageUrl:
-        "https://mrclown.tv/wp-content/uploads/2014/12/MC_SightWords-This.jpg",
+        "https://logicalidea.co/wp-content/uploads/2022/06/React.js-Cheat-Sheet.jpg",
+    },
+    {
+      id: 2,
+      title: "Gomaker",
+      subtitle: "Lighting-fast concurrent compiling tool",
+      externalUrl: "https://github.com/chrisfishbob/gomaker",
+      imageUrl:
+        "https://unit42.paloaltonetworks.com/wp-content/uploads/2019/07/golang-hacker.jpg",
+      
     },
     {
       id: 3,
@@ -44,14 +44,14 @@ function Projects() {
       imageUrl:
         "https://racoongrilledcheesecopy.s3.amazonaws.com/radish.PNG"
     },
-    {
-      id: 6,
-      title: "AlphaBits",
-      subtitle: "Python Huffman-coding Compression",
-      externalUrl: "https://github.com/chrisfishbob/Alphabits",
-      imageUrl:
-        "https://news.mlh.io/wp-content/uploads/2015/06/Silicon-Valley.jpg",
-    },
+    // {
+    //   id: 6,
+    //   title: "AlphaBits",
+    //   subtitle: "Python Huffman-coding Compression",
+    //   externalUrl: "https://github.com/chrisfishbob/Alphabits",
+    //   imageUrl:
+    //     "https://news.mlh.io/wp-content/uploads/2015/06/Silicon-Valley.jpg",
+    // },
   ];
 
   return (

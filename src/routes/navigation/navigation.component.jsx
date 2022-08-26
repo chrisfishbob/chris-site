@@ -7,10 +7,6 @@ function Navigation() {
   return (
     <Fragment>
       <div className="navigation">
-        <Link className="logo-container" to="/">
-          <img src={logo} width={50} />
-        </Link>
-
         <Link className="title" to="/">
           <h1> Chris Hsu</h1>
         </Link>
