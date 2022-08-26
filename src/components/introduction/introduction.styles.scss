@@ -7,22 +7,26 @@
 
   .my-name {
     color: rgb(204, 214, 246);
+    // color: rgb(84, 214, 185);
+    // color: hotpink;
     font-size: clamp(50px, 5vw, 6vw);
+    font-weight: 100;
     margin: 0;
   }
 
   .my-description {
     color: rgb(136, 146, 176);
+    // color: hotpink;
     font-size: clamp(30px, 3vw, 4vw);
     margin: 1;
   }
 
   .hello-world{
     color: rgb(84, 214, 185);
-    font-size: clamp(20px, 3vw, 5vw);
+    font-size: clamp(20px, 2vw, 4vw);
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 750px) {
     & {
       padding-left: 10%;
       padding-right: 10%;
