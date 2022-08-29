@@ -20,12 +20,23 @@ Completes a clean install of the React project. This script will install everyth
 After the command executes, the app should be hosted at localhost:3000 \
 The project can now be accessed on localhost:3000 like any other URL,
 
+&nbsp;
+## Commonly Asked Questions:
 
-## Is this hosted / on the internet?
+# What is being used to build this site?
+The main infrastructure is entirely on AWS. 
+* AWS Amplify - Serverless deployment with continuous deployment and auto-scaling
+* AWS CloudFront - Content delivery network to reduce website load time
+* AWS S3 - Storage for non-cached items in the site
+* AWS Route 53 - Domain name registration
+* AWS CloudWatch Logs - Site information logging (stores to S3)
+
+
+# Is this hosted / on the internet?
 Yes! This project is currently deployed on AWS. AWS Route 53 is used for domain name and hosted zones. AWS Amplify is used to deploy the website itself.
 
 
-## Where can I see this?
+# Where can I see this?
 [Right here!](https://iamchrishsu.com)
 
 
