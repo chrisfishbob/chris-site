@@ -1,6 +1,6 @@
 # [Chris's Corner](https://iamchrishsu.com)
 
-<img src="https://github.com/chrisfishbob/chris-site/blob/main/blog.png?raw=true" width="400" height="40" align="left"/> 
+<img src="https://github.com/chrisfishbob/chris-site/blob/main/blog.png?raw=true" width="400" height="400" align="left"/> 
 
 This is my personal blog! The current version hosted [here](https://iamchrishsu.com) is the main branch. There are other branches, some of them are in-progress for future updates to the site, some of them are abandoned changes. Feel free to check it out, but main is should be the main reference
 
