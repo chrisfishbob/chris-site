@@ -4,18 +4,23 @@
   margin-top: 20px;
   height: 50vh;
 
-  .expand-description {
+
+  dd {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .description {
     display: none;
   }
 
   dd:hover {
-    text-decoration: underline;
     font-weight: bold;
 
-    & > .expand-description {
-      display: block;
-      color: red;
+    .description {
+      display: inline;
     }
+
   }
 
   @media screen and (max-width: 600px) {

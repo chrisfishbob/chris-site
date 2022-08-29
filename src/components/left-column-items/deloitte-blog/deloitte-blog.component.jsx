@@ -14,15 +14,11 @@ function DeloitteBlog() {
         at Deloitte!
       </p>
       <p>
-        This website exists solely because of my time working at the firm. When I first got
-        my project details, I learnt that I had to use HTML, CSS, JavaScript,
-        AWS, and ReactJS, which was awesome, except ...
+        I've met so many amazing people, and I got to visit Denver, Dallas, and
+        Chicago, none of which I would've gotten the chance to see this summer otherwise.
       </p>
-      <p> I didn't know any of it.</p>
       <p>
-        But after many hours, 5000+ lines, and many pull requests, I've learned
-        more than enough to build this website with everything mentioned above and
-        a lot more!
+        Also, this website was made possible by the training on React that I received!
       </p>
     </div>
   );
