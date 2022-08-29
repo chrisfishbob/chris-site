@@ -31,6 +31,11 @@ The main infrastructure is entirely on AWS.
 * AWS Route 53 - Domain name registration
 * AWS CloudWatch Logs - Site information logging (stores to S3)
 
+The front end is slightly less complicated.
+* React - UI
+* SASS - Makes CSS marginally less painful
+* JSX - JavaScript with in-lin HTML
+
 
 # Is this hosted / on the internet?
 Yes! This project is currently deployed through AWS
