@@ -16,7 +16,7 @@ function Projects() {
       id: 2,
       title: "ReactJS Personal Site",
       subtitle: "You're Looking At It Now",
-      externalUrl: "/",
+      externalUrl: "https://github.com/chrisfishbob/chris-site",
       imageUrl:
         "http://d34316robnoe1k.cloudfront.net/nested.jpg",
     },
