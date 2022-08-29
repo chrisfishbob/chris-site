@@ -1,6 +1,6 @@
 # [Chris's Corner](https://iamchrishsu.com)
 
-This is my personal website! The current version hosted [here](https://iamchrishsu.com) is the reduced branch, which has minimal features while the master branch is under development. 
+This is my personal blog! The current version hosted [here](https://iamchrishsu.com) is the main branch. There are other branches, some of them are in-progress for future updates to the site, some of them are abandoned changes. Feel free to check it out, but main is should be the main reference
 
 ## Running Instructions
 
