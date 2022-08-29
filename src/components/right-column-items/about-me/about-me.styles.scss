@@ -15,10 +15,11 @@
   @media screen and (max-width: 600px) {
     text-align: center;
     .profile-pic {
-      animation: 1s ease-in 0s 1 profile-pic-animation forwards;
+      opacity: 0%;
+      animation: 1.3s ease-in 0.5s 1 profile-pic-animation forwards;
     }
     & {
-      animation: 1s ease-in 0s 1 about-me-slide-in forwards;
+      animation: 1.3s ease-in 1.5s 1 about-me-slide-in forwards;
     }
     h1,
     p,
@@ -26,7 +27,7 @@
       // animation: 1s ease-in 0s 1 appear;
       // animation: 1s ease-in 0s 1 appear forwards;
       opacity: 0%;
-      animation: 1.3s ease-in 1.2s 1 hey-there-animation forwards;
+      animation: 1.3s ease-in 1.7s 1 hey-there-animation forwards;
     }
   }
 

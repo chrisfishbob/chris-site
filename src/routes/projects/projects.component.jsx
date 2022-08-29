@@ -9,7 +9,7 @@ function Projects() {
       subtitle: "Lighting-fast concurrent compiling tool",
       externalUrl: "https://github.com/chrisfishbob/gomaker",
       imageUrl:
-        "https://external-preview.redd.it/lfkblswbV7VXAp-9RR0wUNlq5wEMV1RZoDsnpfeufIY.jpg?auto=webp&s=2fed4435f4956ba1d45627775ef44a11f156ff91",
+        "http://d34316robnoe1k.cloudfront.net/gophers.jpg",
       
     },
     {
@@ -18,7 +18,7 @@ function Projects() {
       subtitle: "You're Looking At It Now",
       externalUrl: "/",
       imageUrl:
-        "https://mrclown.tv/wp-content/uploads/2014/12/MC_SightWords-This.jpg",
+        "http://d34316robnoe1k.cloudfront.net/nested.jpg",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ function Projects() {
       subtitle: "Java Chess GUI && Move Generation",
       externalUrl: "https://github.com/chrisfishbob/LightBlue",
       imageUrl:
-        "https://images.unsplash.com/photo-1580541832626-2a7131ee809f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlc3N8ZW58MHx8MHx8&w=1000&q=80",
+        "http://d34316robnoe1k.cloudfront.net/chess.jpeg",
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ function Projects() {
       subtitle: "iOS 3D Space Shooter",
       externalUrl: "https://apps.apple.com/ca/app/argon-assault/id1485174797",
       imageUrl:
-        "https://s3-us-west-2.amazonaws.com/media.brothers-brick.com/2022/05/TieFighter-FukuSaku.jpg",
+        "http://d34316robnoe1k.cloudfront.net/tiefighter.jpg",
     },
     {
       id: 5,
@@ -42,7 +42,7 @@ function Projects() {
       subtitle: "iOS 2D Endless Scroller",
       externalUrl: "https://apps.apple.com/zw/app/radical-radish/id1488590413",
       imageUrl:
-        "https://racoongrilledcheesecopy.s3.amazonaws.com/radish.PNG"
+        "http://d34316robnoe1k.cloudfront.net/radish.PNG"
     },
     {
       id: 6,
@@ -50,7 +50,7 @@ function Projects() {
       subtitle: "Python Huffman-coding Compression",
       externalUrl: "https://github.com/chrisfishbob/Alphabits",
       imageUrl:
-        "https://news.mlh.io/wp-content/uploads/2015/06/Silicon-Valley.jpg",
+        "http://d34316robnoe1k.cloudfront.net/piedpiper.jpg",
     },
   ];
 
