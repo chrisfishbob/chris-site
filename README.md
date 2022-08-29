@@ -2,7 +2,7 @@
 
 <img src="https://github.com/chrisfishbob/chris-site/blob/main/blog.png?raw=true" width="400" height="250" align="right"/> 
 
-## Introduction
+## What's This Thing?
 
 This is my personal blog && profolio! The current version hosted [here](https://iamchrishsu.com) is the main branch. There are other branches, some of them are in-progress for future updates to the site, some of them are abandoned changes. Feel free to check it out, but main is should be the main reference.
 
@@ -33,7 +33,7 @@ The main infrastructure is entirely on AWS.
 
 
 # Is this hosted / on the internet?
-Yes! This project is currently deployed on AWS. AWS Route 53 is used for domain name and hosted zones. AWS Amplify is used to deploy the website itself.
+Yes! This project is currently deployed through AWS
 
 
 # Where can I see this?
