@@ -34,7 +34,7 @@ function Pages() {
       id: 4,
       title: "Education",
       subtitle: "Courses && Certifications",
-      externalUrl: "https://gradbusiness.calpoly.edu/wp-content/uploads/2020/11/20200113-CPAerials-SP0062.jpg",
+      externalUrl: "/construction",
       imageUrl:
         "https://gradbusiness.calpoly.edu/wp-content/uploads/2020/11/20200113-CPAerials-SP0062.jpg",
       openNewTab: false,
@@ -43,7 +43,7 @@ function Pages() {
       id: 5,
       title: "Work Experience",
       subtitle: "See More",
-      externalUrl: "https://apps.apple.com/zw/app/radical-radish/id1488590413",
+      externalUrl: "/construction",
       imageUrl:
         "https://www.officelovin.com/wp-content/uploads/2016/10/deloitte-toronto-office-2.jpg",
       openNewTab: false,
@@ -52,10 +52,10 @@ function Pages() {
       id: 6,
       title: "Contact Me",
       subtitle: "Let's Connect!",
-      externalUrl: "https://github.com/chrisfishbob/Alphabits",
+      externalUrl: "https://www.linkedin.com/in/hsuc/",
       imageUrl:
         "http://cdn.cnn.com/cnnnext/dam/assets/211207104548-10-worlds-best-bars-2021-katana-kitten.jpg",
-      openNewTab: false,
+      openNewTab: true,
     },
   ];
 

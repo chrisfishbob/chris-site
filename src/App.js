@@ -5,8 +5,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./routes/home/home.component"
 import "./App.scss";
 
-function Contact() {
-  return <h1> (949)-445-2477</h1>;
+function Construction() {
+  return <h1> This page is under construction, check back later!</h1>;
 }
 
 function SiteInfo() {
@@ -22,6 +22,7 @@ function App() {
         <Route index element={<Pages/>} />
         <Route path="projects" element={<Projects/>} />
         <Route path="blog" element={<Home/>} />
+        <Route path="construction" element={<Construction/>} />
 
       </Route>
     </Routes>
