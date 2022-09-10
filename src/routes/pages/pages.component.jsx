@@ -9,7 +9,7 @@ function Pages() {
       subtitle: "My Blog && More",
       externalUrl: "/blog",
       imageUrl:
-        "https://i.insider.com/5cddaee0021b4c06d6337b93?width=1000&format=jpeg&auto=webp",
+        "http://d34316robnoe1k.cloudfront.net/taiwan.jpeg",
       openNewTab: false,
     },
     {
@@ -18,7 +18,7 @@ function Pages() {
       subtitle: "My Works && Where to See Them",
       externalUrl: "/projects",
       imageUrl:
-        "https://lwslawyers.com.au/wp-content/uploads/2016/05/melbourne-construction-lawyers1.jpg",
+        "http://d34316robnoe1k.cloudfront.net/construction.jpg",
       openNewTab: false,
     },
     {
@@ -36,7 +36,7 @@ function Pages() {
       subtitle: "Courses && Certifications",
       externalUrl: "/construction",
       imageUrl:
-        "https://gradbusiness.calpoly.edu/wp-content/uploads/2020/11/20200113-CPAerials-SP0062.jpg",
+        "http://d34316robnoe1k.cloudfront.net/campus.jpg",
       openNewTab: false,
     },
     {
@@ -45,7 +45,7 @@ function Pages() {
       subtitle: "See More",
       externalUrl: "/construction",
       imageUrl:
-        "https://www.officelovin.com/wp-content/uploads/2016/10/deloitte-toronto-office-2.jpg",
+        "http://d34316robnoe1k.cloudfront.net/deloitte_office.jpg",
       openNewTab: false,
     },
     {
@@ -54,7 +54,7 @@ function Pages() {
       subtitle: "Let's Connect!",
       externalUrl: "https://www.linkedin.com/in/hsuc/",
       imageUrl:
-        "http://cdn.cnn.com/cnnnext/dam/assets/211207104548-10-worlds-best-bars-2021-katana-kitten.jpg",
+        "http://d34316robnoe1k.cloudfront.net/bar.jpg",
       openNewTab: true,
     },
   ];
