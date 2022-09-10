@@ -1,4 +1,4 @@
-import "./home.styles.scss";
+import "./blog.styles.scss";
 import DeloitteBlog from "../../components/left-column-items/deloitte-blog/deloitte-blog.component";
 import SpainBlog from "../../components/left-column-items/spain-blog/spain-blog.component";
 import CitizenShipBlog from "../../components/left-column-items/bowling-blog/bowling-blog.component";
@@ -8,7 +8,7 @@ import SiteInfoBlog from "../../components/right-column-items/site-info/site-inf
 import Footer from "../../components/footer/footer.component";
 import { Fragment } from "react";
 
-function MyStory() {
+function Blog() {
   return (
     <Fragment>
       <div className="row">
@@ -31,4 +31,4 @@ function MyStory() {
   );
 }
 
-export default MyStory;
+export default Blog;

@@ -1,0 +1,151 @@
+/* The actual timeline (the vertical ruler) */
+.work-timeline {
+  position: relative;
+  max-width: 1500px;
+  margin: 0 auto;
+
+  /* Container around content */
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+
+    /* The circles on the timeline */
+    &::after {
+      content: "";
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      right: -17px;
+      background-color: white;
+      border: 4px solid #789f90;
+      top: 15px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  &::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    background-color: #8e9089;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: 25px;
+  }
+
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+
+    &::after {
+      left: -16px;
+    }
+  }
+
+  /* The actual content */
+  .content-calpoly {
+    padding: 20px 30px;
+    background-color: #bd8b13;
+    position: relative;
+    border-radius: 6px;
+    h1 {
+      color: #154734;
+    }
+
+    a {
+      color: #D0DF00; 
+    }
+  }
+
+  .content-deloitte {
+    padding: 20px 30px;
+    background-color: black;
+    position: relative;
+    border-radius: 6px;
+    h1 {
+      color: rgb(134, 188, 37) 
+    }
+
+
+    h3, h4,
+    p {
+      color: white;
+    }
+  }
+
+  .content-freelance {
+    padding: 20px 30px;
+    background-color: #379683;
+    position: relative;
+    border-radius: 6px;
+    h1 {
+      color: #05386b 
+    }
+
+    a {
+      color: purple;
+      font-style: italic
+      
+    }
+
+
+    h3, h4,
+    p{
+      color: #EDF5E1;
+    }
+  }
+
+  .content-gdc {
+    padding: 20px 30px;
+    background-color: rgb(17, 44, 87);
+    position: relative;
+    border-radius: 6px;
+    h1 {
+      color: rgb(183, 24, 20)
+    }
+
+
+    h3, h4,
+    p{
+      color: #EDF5E1;
+    }
+  }
+
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    &::after {
+      left: 31px;
+    }
+
+    /* Full-width containers */
+    .container {
+      width: 100%;
+      padding-top: 50px;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+      left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+      left: 0%;
+    }
+  }
+}

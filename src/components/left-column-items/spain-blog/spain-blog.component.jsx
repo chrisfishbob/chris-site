@@ -13,10 +13,9 @@ function SpainBlog() {
         because of the lighting, It's not a drawing).
       </p>
       <p>
-        I only took a couple pictures, this being one of them, but Spainish food is amazing. I didn't think
-        I liked ham before arriving at Madrid.
-      </p>
-      <p> Editor's review: Lot's of cool architecture and ... Five Guys? </p>
+        I only took a couple pictures, this being one of them, but Spainish food is amazing. The lack of iced coffee and 
+        iced water while it was 110 degrees ... less amazing.</p>
+      <p> Editor's review: Very hot outside but a cool place.</p>
       <p> Score: 10 /10</p>
     </div>
   );

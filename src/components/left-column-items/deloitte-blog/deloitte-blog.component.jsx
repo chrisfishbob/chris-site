@@ -14,11 +14,14 @@ function DeloitteBlog() {
         at Deloitte!
       </p>
       <p>
-        I've met so many amazing people, and I got to visit Denver, Dallas, and
+        I got to visit Denver, Dallas, and
         Chicago, none of which I would've gotten the chance to see this summer otherwise.
       </p>
       <p>
-        Also, this website was made possible by the training on React that I received!
+        Editor's Review: Great people, cool places.
+      </p>
+      <p>
+        Score: 10 / 10
       </p>
     </div>
   );
