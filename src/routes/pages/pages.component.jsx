@@ -14,24 +14,6 @@ function Pages() {
     },
     {
       id: 2,
-      title: "Projects",
-      subtitle: "My Works && Where to See Them",
-      externalUrl: "/projects",
-      imageUrl:
-        "http://d34316robnoe1k.cloudfront.net/construction.jpg",
-      openNewTab: false,
-    },
-    {
-      id: 3,
-      title: "Resume",
-      subtitle: "Updated 9/10/2022",
-      externalUrl: "https://racoongrilledcheesecopy.s3.amazonaws.com/LatexResume.pdf",
-      imageUrl:
-        "https://lfla.org/wp-content/uploads/2021/06/los-angeles-library-interior.jpg",
-      openNewTab: true,
-    },
-    {
-      id: 4,
       title: "Education",
       subtitle: "Courses && Certifications",
       externalUrl: "/education",
@@ -40,13 +22,31 @@ function Pages() {
       openNewTab: false,
     },
     {
-      id: 5,
+      id: 3,
       title: "Work Experience",
       subtitle: "See More",
       externalUrl: "/construction",
       imageUrl:
         "http://d34316robnoe1k.cloudfront.net/deloitte_office.jpg",
       openNewTab: false,
+    },
+    {
+      id: 4,
+      title: "Projects",
+      subtitle: "My Works && Where to See Them",
+      externalUrl: "/projects",
+      imageUrl:
+        "http://d34316robnoe1k.cloudfront.net/construction.jpg",
+      openNewTab: false,
+    },
+    {
+      id: 5,
+      title: "Resume",
+      subtitle: "Updated 9/10/2022",
+      externalUrl: "https://racoongrilledcheesecopy.s3.amazonaws.com/LatexResume.pdf",
+      imageUrl:
+        "https://lfla.org/wp-content/uploads/2021/06/los-angeles-library-interior.jpg",
+      openNewTab: true,
     },
     {
       id: 6,
