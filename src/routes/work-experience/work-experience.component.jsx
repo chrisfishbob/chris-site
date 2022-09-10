@@ -37,7 +37,7 @@ function WorkExperience() {
             through class performance
           </p>
           <p>
-            • Developed custom CLI tools that reduced overall grading times by
+            • Developed <a href="https://github.com/chrisfishbob/gomaker" target="_blank"> custom CLI tools </a> that reduced overall grading times by
             10-20%.
           </p>
           <p>
@@ -78,12 +78,12 @@ function WorkExperience() {
           <h3>iOS Developer</h3>
           <p> January 2019 - May 2020</p>
           <p>
-            • Created and published <a href="https://apps.apple.com/zw/app/radical-radish/id1488590413" target="_blank"> "Radical Radish" </a>, a 2D endless runner game,
+            • Created and published <a href="https://apps.apple.com/zw/app/radical-radish/id1488590413" target="_blank"> Radical Radish </a>, a 2D endless runner game,
             to the App Store.
           </p>
           <p>
             • Obtained Unity Engine programming skills through Udemy. Then
-            developed and Deployed <a href="https://apps.apple.com/ca/app/argon-assault/id1485174797" target="_blank"> "Argon Assault" </a>, a retro 3D space shooter
+            developed and Deployed <a href="https://apps.apple.com/ca/app/argon-assault/id1485174797" target="_blank"> Argon Assault </a>, a retro 3D space shooter
             game, to the App Store.
           </p>
         </div>

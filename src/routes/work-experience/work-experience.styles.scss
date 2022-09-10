@@ -62,6 +62,10 @@
     h1 {
       color: #154734;
     }
+
+    a {
+      color: #D0DF00; 
+    }
   }
 
   .content-deloitte {
@@ -89,9 +93,15 @@
       color: #05386b 
     }
 
+    a {
+      color: purple;
+      font-style: italic
+      
+    }
+
 
     h3, h4,
-    p, a {
+    p{
       color: #EDF5E1;
     }
   }
