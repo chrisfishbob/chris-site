@@ -34,7 +34,7 @@ function Pages() {
       id: 4,
       title: "Education",
       subtitle: "Courses && Certifications",
-      externalUrl: "/construction",
+      externalUrl: "/education",
       imageUrl:
         "http://d34316robnoe1k.cloudfront.net/campus.jpg",
       openNewTab: false,

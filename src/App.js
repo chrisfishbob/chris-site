@@ -3,7 +3,9 @@ import Projects from "./routes/projects/projects.component";
 import Pages from "./routes/pages/pages.component";
 import { Routes, Route } from "react-router-dom";
 import Blog from "./routes/blog/blog.component"
+import Education from "./routes/education/education.component";
 import "./App.scss";
+
 
 function Construction() {
   return <h1> This page is under construction, check back later!</h1>;
@@ -22,6 +24,7 @@ function App() {
         <Route index element={<Pages/>} />
         <Route path="projects" element={<Projects/>} />
         <Route path="blog" element={<Blog/>} />
+        <Route path="education" element={<Education/>} />
         <Route path="construction" element={<Construction/>} />
 
       </Route>

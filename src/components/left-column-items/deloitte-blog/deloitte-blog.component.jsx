@@ -17,9 +17,6 @@ function DeloitteBlog() {
         I've met so many amazing people, and I got to visit Denver, Dallas, and
         Chicago, none of which I would've gotten the chance to see this summer otherwise.
       </p>
-      <p>
-        Also, this website was made possible by the training on React that I received!
-      </p>
     </div>
   );
 }
