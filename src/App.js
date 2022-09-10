@@ -19,9 +19,9 @@ function App() {
     <Routes>
       {/* Render the element if the path matches*/}
       <Route path="/" element={<Navigation />}>
-        <Route index element={<Home/>} />
+        <Route index element={<Pages/>} />
         <Route path="projects" element={<Projects/>} />
-        <Route path="directory" element={<Pages/>} />
+        <Route path="blog" element={<Home/>} />
 
       </Route>
     </Routes>

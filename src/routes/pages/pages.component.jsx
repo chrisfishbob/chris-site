@@ -7,7 +7,7 @@ function Pages() {
       id: 1,
       title: "About Me",
       subtitle: "My Blog && More",
-      externalUrl: "https://github.com/chrisfishbob/gomaker",
+      externalUrl: "/blog",
       imageUrl:
         "https://i.insider.com/5cddaee0021b4c06d6337b93?width=1000&format=jpeg&auto=webp",
       openNewTab: false,
@@ -16,7 +16,7 @@ function Pages() {
       id: 2,
       title: "Projects",
       subtitle: "My Works && Where to See Them",
-      externalUrl: "https://github.com/chrisfishbob/chris-site",
+      externalUrl: "/projects",
       imageUrl:
         "https://lwslawyers.com.au/wp-content/uploads/2016/05/melbourne-construction-lawyers1.jpg",
       openNewTab: false,
@@ -25,15 +25,15 @@ function Pages() {
       id: 3,
       title: "Resume",
       subtitle: "Updated 9/10/2022",
-      externalUrl: "/",
+      externalUrl: "https://racoongrilledcheesecopy.s3.amazonaws.com/LatexResume.pdf",
       imageUrl:
         "https://lfla.org/wp-content/uploads/2021/06/los-angeles-library-interior.jpg",
-      openNewTab: false,
+      openNewTab: true,
     },
     {
       id: 4,
       title: "Education",
-      subtitle: "iOS 3D Space Shooter",
+      subtitle: "Courses && Certifications",
       externalUrl: "https://gradbusiness.calpoly.edu/wp-content/uploads/2020/11/20200113-CPAerials-SP0062.jpg",
       imageUrl:
         "https://gradbusiness.calpoly.edu/wp-content/uploads/2020/11/20200113-CPAerials-SP0062.jpg",

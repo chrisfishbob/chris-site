@@ -10,6 +10,7 @@ function Projects() {
       externalUrl: "https://github.com/chrisfishbob/gomaker",
       imageUrl:
         "http://d34316robnoe1k.cloudfront.net/gophers.jpg",
+      openNewTab: true,
       
     },
     {
@@ -19,6 +20,8 @@ function Projects() {
       externalUrl: "https://github.com/chrisfishbob/chris-site",
       imageUrl:
         "http://d34316robnoe1k.cloudfront.net/nested.jpg",
+      openNewTab: true,
+      
     },
     {
       id: 3,
@@ -27,6 +30,8 @@ function Projects() {
       externalUrl: "https://github.com/chrisfishbob/LightBlue",
       imageUrl:
         "http://d34316robnoe1k.cloudfront.net/chess.jpeg",
+      openNewTab: true,
+      
     },
     {
       id: 4,
@@ -35,6 +40,8 @@ function Projects() {
       externalUrl: "https://apps.apple.com/ca/app/argon-assault/id1485174797",
       imageUrl:
         "http://d34316robnoe1k.cloudfront.net/tiefighter.jpg",
+      openNewTab: true,
+      
     },
     {
       id: 5,
@@ -42,7 +49,9 @@ function Projects() {
       subtitle: "iOS 2D Endless Scroller",
       externalUrl: "https://apps.apple.com/zw/app/radical-radish/id1488590413",
       imageUrl:
-        "http://d34316robnoe1k.cloudfront.net/radish.PNG"
+        "http://d34316robnoe1k.cloudfront.net/radish.PNG",
+      openNewTab: true,
+      
     },
     {
       id: 6,
@@ -51,6 +60,8 @@ function Projects() {
       externalUrl: "https://github.com/chrisfishbob/Alphabits",
       imageUrl:
         "http://d34316robnoe1k.cloudfront.net/piedpiper.jpg",
+      openNewTab: true,
+      
     },
   ];
 
