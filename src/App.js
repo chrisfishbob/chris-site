@@ -1,5 +1,6 @@
 import Navigation from "./routes/navigation/navigation.component";
 import Projects from "./routes/projects/projects.component";
+import Pages from "./routes/pages/pages.component";
 import { Routes, Route } from "react-router-dom";
 import Home from "./routes/home/home.component"
 import "./App.scss";
@@ -20,6 +21,8 @@ function App() {
       <Route path="/" element={<Navigation />}>
         <Route index element={<Home/>} />
         <Route path="projects" element={<Projects/>} />
+        <Route path="directory" element={<Pages/>} />
+
       </Route>
     </Routes>
   );
