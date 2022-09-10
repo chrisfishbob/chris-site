@@ -80,21 +80,21 @@ function Education() {
 
       <div className="container left">
         <div className="content-odd">
-          <h2>AP Credits 2019</h2>
-          <p>AP Biology</p>
-          <p>AP English Language and Composition</p>
-          <p>AP U.S. History</p>
-        </div>
-      </div>
-
-      <div className="container right">
-        <div className="content-even">
           <h2>AP Credits 2020</h2>
           <p>AP Calculus AB</p>
           <p>AP Psychology</p>
           <p>AP Microeconomics</p>
           <p>AP English Literature and Composition</p>
           <p>AP Art History</p>
+        </div>
+      </div>
+
+      <div className="container right">
+        <div className="content-even">
+          <h2>AP Credits 2019</h2>
+          <p>AP Biology</p>
+          <p>AP English Language and Composition</p>
+          <p>AP U.S. History</p>
         </div>
       </div>
     </div>
