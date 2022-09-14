@@ -1,6 +1,12 @@
 import "./work-experience.styles.scss";
+import { useEffect } from "react";
 
 function WorkExperience() {
+  useEffect(() => {
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+  }, [])
+
+
   return (
     <div className="work-timeline">
       <div className="container left">

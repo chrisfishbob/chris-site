@@ -1,6 +1,11 @@
 import "./education.styles.scss";
+import { useEffect } from "react"
 
 function Education() {
+  useEffect(() => {
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+  }, [])
+
   return (
     <div className="timeline">
       <div className="container left">
