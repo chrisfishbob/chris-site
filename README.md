@@ -35,6 +35,12 @@ The front end is slightly less complicated.
 * React - UI
 * SASS - Makes CSS marginally less painful
 * JSX - JavaScript with in-lin HTML
+* React Router - For routing between different pages
+
+# Is this finished?
+Yes and no. The website is functionally complete but there are still a lot of things that
+I want to add. This site has been updated many times and it will keep receiving updates until
+there is nothing more to add.
 
 
 # Is this hosted / on the internet?
