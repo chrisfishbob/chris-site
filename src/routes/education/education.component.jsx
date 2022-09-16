@@ -1,10 +1,12 @@
 import "./education.styles.scss";
-import { useEffect } from "react"
+import { useEffect } from "react";
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function Education() {
   useEffect(() => {
     document.body.scrollTop = document.documentElement.scrollTop = 0;
-  }, [])
+  }, []);
 
   return (
     <div className="timeline">
@@ -36,34 +38,55 @@ function Education() {
         </div>
       </div>
 
-      <div className="container right">
-        <div className="content-even">
-          <h2>Fall 2021</h2>
-          <p>CPE-357 Systems Programming</p>
-          <p>CSC-248 Discrete Structure</p>
-          <p>MATH-241 Multivariable Calculus</p>
+      <AnimationOnScroll
+        animateIn="animate__fadeIn"
+        duration={2}
+        offset={0}
+        animateOnce={true}
+      >
+        <div className="container right">
+          <div className="content-even">
+            <h2>Fall 2021</h2>
+            <p>CPE-357 Systems Programming</p>
+            <p>CSC-248 Discrete Structure</p>
+            <p>MATH-241 Multivariable Calculus</p>
+          </div>
         </div>
-      </div>
+      </AnimationOnScroll>
 
-      <div className="container left">
-        <div className="content-odd">
-          <h2>Spring 2021</h2>
-          <p>CPE-203 Object-Oriented Programming and Design</p>
-          <p>CSC-225 Intro to Computer Organization</p>
-          <p>HIST-206 American Cultures</p>
-          <p>MATH-206 Linear Algebra I</p>
+      <AnimationOnScroll
+        animateIn="animate__fadeIn"
+        duration={2}
+        offset={0}
+        animateOnce={true}
+      >
+        <div className="container left">
+          <div className="content-odd">
+            <h2>Spring 2021</h2>
+            <p>CPE-203 Object-Oriented Programming and Design</p>
+            <p>CSC-225 Intro to Computer Organization</p>
+            <p>HIST-206 American Cultures</p>
+            <p>MATH-206 Linear Algebra I</p>
+          </div>
         </div>
-      </div>
+      </AnimationOnScroll>
 
-      <div className="container right">
-        <div className="content-even">
-          <h2>Winter 2021</h2>
-          <p>CPE-202 Data Structures</p>
-          <p>ENGL-149 Technical Writing for Engineers</p>
-          <p>PHYS-141 General Physica 1A</p>
-          <p>MATH-143 Calculus III</p>
+      <AnimationOnScroll
+        animateIn="animate__fadeIn"
+        duration={2}
+        offset={0}
+        animateOnce={true}
+      >
+        <div className="container right">
+          <div className="content-even">
+            <h2>Winter 2021</h2>
+            <p>CPE-202 Data Structures</p>
+            <p>ENGL-149 Technical Writing for Engineers</p>
+            <p>PHYS-141 General Physica 1A</p>
+            <p>MATH-143 Calculus III</p>
+          </div>
         </div>
-      </div>
+      </AnimationOnScroll>
 
       <div className="container left">
         <div className="content-odd">
