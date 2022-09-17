@@ -4,7 +4,6 @@
   margin-top: 20px;
 
   .profile-pic {
-    animation-iteration-count: 1;
     opacity: 100%;
     width: 70%;
     transition-property: opacity;
@@ -14,40 +13,5 @@
 
   @media screen and (max-width: 600px) {
     text-align: center;
-    .profile-pic {
-      opacity: 0%;
-      animation: 1.3s ease-in 0.5s 1 profile-pic-animation forwards;
-    }
-    & {
-      animation: 1.3s ease-in 1.5s 1 about-me-slide-in forwards;
-    }
-    h1,
-    p,
-    h3 {
-      // animation: 1s ease-in 0s 1 appear;
-      // animation: 1s ease-in 0s 1 appear forwards;
-      opacity: 0%;
-      animation: 1.3s ease-in 1.7s 1 hey-there-animation forwards;
-    }
-  }
-
-  @keyframes profile-pic-animation {
-    0% {
-      width: 0%;
-      opacity: 0%;
-    }
-    100% {
-      width: 70%;
-      opacity: 100%;
-    }
-  }
-
-  @keyframes hey-there-animation {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 100%;
-    }
   }
 }
