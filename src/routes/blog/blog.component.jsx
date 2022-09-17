@@ -6,11 +6,13 @@ import AboutMeBlog from "../../components/right-column-items/about-me/about-me.c
 import LetsConnectBlog from "../../components/right-column-items/lets-connect/lets-connect.component";
 import SiteInfoBlog from "../../components/right-column-items/site-info/site-info.component";
 import Footer from "../../components/footer/footer.component";
+import BlogIntro from "../../components/blog-intro/blog-intro.component";
 import { Fragment } from "react";
 
 function Blog() {
   return (
     <Fragment>
+    <BlogIntro/>
       <div className="row">
         <div className="left-column" id="l">
           <DeloitteBlog />

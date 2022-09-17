@@ -6,7 +6,7 @@ function DeloitteBlog() {
 
   return (
     <div className="deloitte-blog-container">
-      <h1> Chris's Consulting Chronicles </h1>
+      <h1> Chris's Computing Chronicles </h1>
       <h3> Summer, 2022</h3>
       <img className="deloitte-img" src={deloitte_boat} />
       <p>
