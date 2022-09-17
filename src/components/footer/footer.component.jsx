@@ -5,7 +5,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 function Footer() {
   return (
     <AnimationOnScroll
-      animateIn="animate__backInUp"
+      animateIn="animate__fadeIn"
       animateOut="animate__fadeOut"
       offset={0}
       duration={1}
