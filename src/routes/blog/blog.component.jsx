@@ -8,33 +8,24 @@ import SiteInfoBlog from "../../components/right-column-items/site-info/site-inf
 import Footer from "../../components/footer/footer.component";
 import BlogIntro from "../../components/blog-intro/blog-intro.component";
 import { Fragment } from "react";
-import "animate.css/animate.min.css";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function Blog() {
   return (
     <Fragment>
       <BlogIntro />
-      <AnimationOnScroll
-        animateIn="animate__fadeIn"
-        animateOut="animate__fadeOut"
-        offset={100}
-        duration={2.5}
-      >
-        <div className="row">
-          <div className="left-column" id="l">
-            <DeloitteBlog />
-            <SpainBlog />
-            <CitizenShipBlog />
-          </div>
-
-          <div className="right-column" id="r">
-            <AboutMeBlog />
-            <SiteInfoBlog />
-            <LetsConnectBlog />
-          </div>
+      <div className="row">
+        <div className="left-column" id="l">
+          <DeloitteBlog />
+          <SpainBlog />
+          <CitizenShipBlog />
         </div>
-      </AnimationOnScroll>
+
+        <div className="right-column" id="r">
+          <AboutMeBlog />
+          <SiteInfoBlog />
+          <LetsConnectBlog />
+        </div>
+      </div>
       <Footer />
     </Fragment>
   );
