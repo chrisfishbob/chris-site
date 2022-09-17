@@ -8,10 +8,10 @@ function DeloitteBlog() {
 
   return (
     <AnimationOnScroll
-      animateIn="animate__backInLeft"
-      animateOut="animate__fadeOut"
+      animateIn="animate__fadeInLeft"
       offset={100}
       duration={1}
+      animateOnce={true}
     >
       <div className="deloitte-blog-container">
         <h1> Chris's Computing Chronicles </h1>

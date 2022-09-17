@@ -7,10 +7,10 @@ function AboutMeBlog() {
 
   return (
     <AnimationOnScroll
-      animateIn="animate__backInRight"
-      animateOut="animate__fadeOut"
+      animateIn="animate__fadeInRight"
       offset={100}
       duration={1}
+      animateOnce={true}
     >
     <div className="about-me-container">
       <h1> Hi There! </h1>

@@ -15,10 +15,10 @@ function Education() {
 
       <div className="timeline">
         <AnimationOnScroll
-          animateIn="animate__backInLeft"
-          animateOut="animate__fadeOut"
+          animateIn="animate__fadeInLeft"
           offset={100}
           duration={1}
+          animateOnce={true}
         >
           <div className="container left">
             <div className="content-odd">
@@ -31,10 +31,10 @@ function Education() {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          animateIn="animate__backInRight"
-          animateOut="animate__fadeOut"
+          animateIn="animate__fadeInRight"
           offset={100}
           duration={1}
+          animateOnce={true}
         >
           <div className="container right">
             <div className="content-even">
@@ -48,10 +48,10 @@ function Education() {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          animateIn="animate__backInLeft"
-          animateOut="animate__fadeOut"
+          animateIn="animate__fadeInLeft"
           offset={100}
           duration={1}
+          animateOnce={true}
         >
           <div className="container left">
             <div className="content-odd">
@@ -64,10 +64,10 @@ function Education() {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          animateIn="animate__backInRight"
-          animateOut="animate__fadeOut"
+          animateIn="animate__fadeInRight"
           offset={100}
           duration={1}
+          animateOnce={true}
         >
           <div className="container right">
             <div className="content-even">
@@ -80,10 +80,10 @@ function Education() {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          animateIn="animate__backInLeft"
-          animateOut="animate__fadeOut"
+          animateIn="animate__fadeInLeft"
           offset={100}
           duration={1}
+          animateOnce={true}
         >
           <div className="container left">
             <div className="content-odd">
@@ -97,10 +97,10 @@ function Education() {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          animateIn="animate__backInRight"
-          animateOut="animate__fadeOut"
+          animateIn="animate__fadeInRight"
           offset={100}
           duration={1}
+          animateOnce={true}
         >
           <div className="container right">
             <div className="content-even">
@@ -114,10 +114,10 @@ function Education() {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          animateIn="animate__backInLeft"
-          animateOut="animate__fadeOut"
+          animateIn="animate__fadeInLeft"
           offset={100}
           duration={1}
+          animateOnce={true}
         >
           <div className="container left">
             <div className="content-odd">
@@ -131,10 +131,10 @@ function Education() {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          animateIn="animate__backInRight"
-          animateOut="animate__fadeOut"
+          animateIn="animate__fadeInRight"
           offset={100}
           duration={1}
+          animateOnce={true}
         >
           <div className="container right">
             <div className="content-even">
@@ -146,8 +146,7 @@ function Education() {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          animateIn="animate__backInLeft"
-          animateOut="animate__fadeOut"
+          animateIn="animate__fadeInLeft"
           offset={100}
           duration={1}
         >
@@ -164,10 +163,10 @@ function Education() {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          animateIn="animate__backInLeft"
-          animateOut="animate__fadeOut"
+          animateIn="animate__fadeInRight"
           offset={100}
           duration={1}
+          animateOnce={true}
         >
           <div className="container right">
             <div className="content-even">
