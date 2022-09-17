@@ -1,10 +1,17 @@
 import "./about-me.styles.scss"
-import {useState} from "react"
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function AboutMeBlog() {
   const me = "https://d34316robnoe1k.cloudfront.net/meinspain.JPG";
 
   return (
+    <AnimationOnScroll
+      animateIn="animate__backInRight"
+      animateOut="animate__fadeOut"
+      offset={100}
+      duration={1}
+    >
     <div className="about-me-container">
       <h1> Hi There! </h1>
       <img className={"profile-pic"} src={me} />
@@ -19,6 +26,8 @@ function AboutMeBlog() {
         Jiu-Jitsu classes and going on spontaneous trips!
       </p>
     </div>
+    
+    </AnimationOnScroll>
   );
 }
 
