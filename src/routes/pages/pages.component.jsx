@@ -42,7 +42,7 @@ function Pages() {
     {
       id: 5,
       title: "Resume",
-      subtitle: "Updated 9/10/2022",
+      subtitle: "Updated 9/15/2022",
       externalUrl: "https://racoongrilledcheesecopy.s3.amazonaws.com/LatexResume.pdf",
       imageUrl:
         "https://lfla.org/wp-content/uploads/2021/06/los-angeles-library-interior.jpg",
