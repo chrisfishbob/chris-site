@@ -6,9 +6,9 @@ function Footer() {
   return (
     <AnimationOnScroll
       animateIn="animate__fadeIn"
-      animateOut="animate__fadeOut"
       offset={0}
       duration={1}
+      animateOnce={true}
     >
       <div className="footer">
         <a href="https://github.com/chrisfishbob/chris-site" target="_blank">

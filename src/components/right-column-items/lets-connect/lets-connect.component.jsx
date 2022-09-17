@@ -5,10 +5,10 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 function LetsConnectBlog() {
   return (
     <AnimationOnScroll
-      animateIn="animate__backInRight"
-      animateOut="animate__fadeOut"
+      animateIn="animate__fadeInRight"
       offset={100}
       duration={1}
+      animateOnce={true}
     >
     <div className="lets-connect-container">
       <h1> Let's Connect! </h1>

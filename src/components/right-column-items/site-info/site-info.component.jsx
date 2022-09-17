@@ -5,10 +5,10 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 function SiteInfo() {
   return (
     <AnimationOnScroll
-      animateIn="animate__backInRight"
-      animateOut="animate__fadeOut"
+      animateIn="animate__fadeInRight"
       offset={100}
       duration={1}
+      animateOnce={true}
     >
       <div className="site-info-container">
         <h1>Site Info</h1>
