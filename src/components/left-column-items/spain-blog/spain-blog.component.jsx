@@ -1,9 +1,17 @@
 import "./spain-blog.styles.scss"
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function SpainBlog() {
   const spain = "https://d34316robnoe1k.cloudfront.net/spain-2.jpg";
 
   return (
+    <AnimationOnScroll
+      animateIn="animate__backInLeft"
+      animateOut="animate__fadeOut"
+      offset={100}
+      duration={1}
+    >
     <div className="spain-blog-container">
       <h1> Spain</h1>
       <h3> Summer, 2022</h3>
@@ -18,6 +26,7 @@ function SpainBlog() {
       <p> Editor's review: Very hot outside but a cool place.</p>
       <p> Score: 10 /10</p>
     </div>
+    </AnimationOnScroll>
   );
 }
 
