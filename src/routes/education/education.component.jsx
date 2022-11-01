@@ -24,7 +24,7 @@ function Education() {
             <div className="content-odd">
               <h2>Fall 2022</h2>
               <p>CSC-430: Programming Languages</p>
-              <p>CSC-466: Knowledge Discovery from Data</p>
+              <p>CSC-321: Introduction to Computer Security</p>
               <p>CSC-307: Software Engineering</p>
             </div>
           </div>
