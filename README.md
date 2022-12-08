@@ -51,4 +51,8 @@ Yes! This project is currently deployed through AWS
 [Right here!](https://iamchrishsu.com)
 
 
+# Anything New?
+Currently doing a rewrite in TypeScript and then after that, yes.
+
+
 
