@@ -68,6 +68,22 @@
     }
   }
 
+  .content-aws {
+    padding: 20px 30px;
+    background-color: rgb(255, 158, 0);
+    position: relative;
+    border-radius: 6px;
+    h1 {
+      color: black 
+    }
+
+
+    h3, h4,
+    p {
+      color: black;
+    }
+  }
+
   .content-deloitte {
     padding: 20px 30px;
     background-color: black;

@@ -1,0 +1,17 @@
+.aws-blog-container {
+  background-color: rgba(242, 231, 235, 1);
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 4%;
+  margin-right: 4%;
+
+  .aws-img {
+    width: 70%;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    text-align: center;
+  }
+
+}

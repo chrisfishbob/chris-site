@@ -18,7 +18,7 @@ function Pages() {
       subtitle: "Courses && Certifications",
       externalUrl: "/education",
       imageUrl:
-        "http://d34316robnoe1k.cloudfront.net/campus.jpg",
+        "http://d34316robnoe1k.cloudfront.net/campus-min.jpg",
       openNewTab: false,
     },
     {
@@ -27,7 +27,7 @@ function Pages() {
       subtitle: "See More",
       externalUrl: "/work-experience",
       imageUrl:
-        "http://d34316robnoe1k.cloudfront.net/deloitte_office.jpg",
+        "http://d34316robnoe1k.cloudfront.net/amazon_office.jpg",
       openNewTab: false,
     },
     {
@@ -36,16 +36,16 @@ function Pages() {
       subtitle: "My Works && Where to See Them",
       externalUrl: "/projects",
       imageUrl:
-        "http://d34316robnoe1k.cloudfront.net/construction.jpg",
+        "http://d34316robnoe1k.cloudfront.net/construction-min.jpg",
       openNewTab: false,
     },
     {
       id: 5,
       title: "Resume",
-      subtitle: "Updated 9/15/2022",
-      externalUrl: "https://racoongrilledcheesecopy.s3.amazonaws.com/LatexResume.pdf",
+      subtitle: "Updated 8/01/2023",
+      externalUrl: "https://racoongrilledcheesecopy.s3.amazonaws.com/Chris_Hsu_Resume.pdf",
       imageUrl:
-        "https://lfla.org/wp-content/uploads/2021/06/los-angeles-library-interior.jpg",
+        "http://d34316robnoe1k.cloudfront.net/library.jpg",
       openNewTab: true,
     },
     {
@@ -54,7 +54,7 @@ function Pages() {
       subtitle: "Let's Connect!",
       externalUrl: "https://www.linkedin.com/in/hsuc/",
       imageUrl:
-        "http://d34316robnoe1k.cloudfront.net/bar.jpg",
+        "http://d34316robnoe1k.cloudfront.net/bar-min.jpg",
       openNewTab: true,
     },
   ];

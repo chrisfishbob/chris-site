@@ -5,9 +5,9 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Gomaker",
-      subtitle: "Lighting-fast concurrent compiling tool",
-      externalUrl: "https://github.com/chrisfishbob/gomaker",
+      title: "Seville",
+      subtitle: "Compiled Programming Language Written in Go",
+      externalUrl: "https://github.com/chrisfishbob/seville",
       imageUrl:
         "http://d34316robnoe1k.cloudfront.net/gophers.jpg",
       openNewTab: true,
@@ -15,6 +15,16 @@ function Projects() {
     },
     {
       id: 2,
+      title: "Spark",
+      subtitle: "A Functional Programing Language Written in Python",
+      externalUrl: "https://github.com/chrisfishbob/spark",
+      imageUrl:
+        "http://d34316robnoe1k.cloudfront.net/python.jpg",
+      openNewTab: true,
+      
+    },
+    {
+      id: 3,
       title: "ReactJS Personal Site",
       subtitle: "You're Looking At It Now",
       externalUrl: "https://github.com/chrisfishbob/chris-site",
@@ -24,7 +34,7 @@ function Projects() {
       
     },
     {
-      id: 3,
+      id: 4,
       title: "LightBlue",
       subtitle: "Java Chess GUI && Move Generation",
       externalUrl: "https://github.com/chrisfishbob/LightBlue",
@@ -34,7 +44,7 @@ function Projects() {
       
     },
     {
-      id: 4,
+      id: 5,
       title: "Argon Assault",
       subtitle: "iOS 3D Space Shooter",
       externalUrl: "https://apps.apple.com/ca/app/argon-assault/id1485174797",
@@ -44,22 +54,12 @@ function Projects() {
       
     },
     {
-      id: 5,
-      title: "Radical Radish",
-      subtitle: "iOS 2D Endless Scroller",
-      externalUrl: "https://apps.apple.com/zw/app/radical-radish/id1488590413",
-      imageUrl:
-        "http://d34316robnoe1k.cloudfront.net/radish.PNG",
-      openNewTab: true,
-      
-    },
-    {
       id: 6,
-      title: "AlphaBits",
-      subtitle: "Python Huffman-coding Compression",
-      externalUrl: "https://github.com/chrisfishbob/Alphabits",
+      title: "JYSS",
+      subtitle: "A Statically-typed Programming Language Written in Racket",
+      externalUrl: "https://github.com/chrisfishbob/jyss",
       imageUrl:
-        "http://d34316robnoe1k.cloudfront.net/piedpiper.jpg",
+        "http://d34316robnoe1k.cloudfront.net/lambda.png",
       openNewTab: true,
       
     },

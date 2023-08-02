@@ -18,7 +18,7 @@ function Navigation() {
         <div className="nav-links-container">
           <a
             className="nav-link-resume"
-            href="https://racoongrilledcheesecopy.s3.amazonaws.com/LatexResume.pdf"
+            href="https://racoongrilledcheesecopy.s3.amazonaws.com/Chris_Hsu_Resume.pdf"
             target="_blank"
           >
             RESUME

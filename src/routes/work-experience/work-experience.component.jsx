@@ -13,8 +13,6 @@ function WorkExperience() {
     <div>
       <WorkExperienceIntro />
       <div className="work-timeline">
-        
-
         <AnimationOnScroll
           animateIn="animate__fadeInLeft"
           offset={100}
@@ -22,6 +20,42 @@ function WorkExperience() {
           animateOnce={true}
         >
         <div className="container left">
+          <div className="content-aws">
+            <h1>Amazon Web Services</h1>
+            <h3>Jr. Software Development Engineer</h3>
+            <p> Jan 12 - Present</p>
+            <p>
+              • Architected and developed a new malware detection service that proactively identifies and flags 
+              potentially malicious certificates attempting to sign malware. 
+            </p>
+            <p>
+              • Pioneered a brand new serverless security service that automatically detects and reports expiring certificates, completely
+                eliminating manual action needed from customers. 
+            </p>
+            <p>
+              • Revamped AWS Security Infrastructure's data validation system with MyPy and Marshmallow across all 40+ APIs,
+                resulting in dramatically improved safety with 0 production issues.            
+            </p>
+            <p>
+              • Prevented the top 3 most common bugs from ever occurring again within the team's core product by developing a
+                custom Flake8-based linter, preventing errors without executing the code. 
+            </p>
+            <p>
+             • Leveraged AWS CDK to construct and deploy infrastructure, approval pipelines, and automated integration tests, allowing
+               for fast development and deployments.
+            </p>
+          </div>
+        </div>
+        </AnimationOnScroll>
+        
+
+        <AnimationOnScroll
+          animateIn="animate__fadeInRight"
+          offset={100}
+          duration={1}
+          animateOnce={true}
+        >
+        <div className="container right">
           <div className="content-deloitte">
             <h1>Deloitte</h1>
             <h3>Software Engineering Intern</h3>
@@ -44,12 +78,12 @@ function WorkExperience() {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          animateIn="animate__fadeInRight"
+          animateIn="animate__fadeInLeft"
           offset={100}
           duration={1}
           animateOnce={true}
         >
-        <div className="container right">
+        <div className="container left">
           <div className="content-calpoly">
             <h1>Cal Poly</h1>
             <h3>Systems Programming TA</h3>
@@ -77,12 +111,12 @@ function WorkExperience() {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          animateIn="animate__fadeInLeft"
+          animateIn="animate__fadeInRight"
           offset={100}
           duration={1}
           animateOnce={true}
         >
-        <div className="container left">
+        <div className="container right">
           <div className="content-gdc">
             <h1>Game Design Club</h1>
             <h3>Software Engineer</h3>
@@ -104,12 +138,12 @@ function WorkExperience() {
         </AnimationOnScroll>
 
         <AnimationOnScroll
-          animateIn="animate__fadeInRight"
+          animateIn="animate__fadeInLeft"
           offset={100}
           duration={1}
           animateOnce={true}
         >
-        <div className="container right">
+        <div className="container left">
           <div className="content-freelance">
             <h1>Freelance</h1>
             <h3>iOS Developer</h3>
