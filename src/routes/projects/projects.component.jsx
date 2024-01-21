@@ -15,6 +15,16 @@ function Projects() {
     },
     {
       id: 2,
+      title: "Talia",
+      subtitle: "2000+ ELO Chess Engine Written in Rust",
+      externalUrl: "https://github.com/chrisfishbob/Talia",
+      imageUrl:
+        "http://d34316robnoe1k.cloudfront.net/chess.jpeg",
+      openNewTab: true,
+      
+    },
+    {
+      id: 3,
       title: "Spark",
       subtitle: "A Functional Programing Language Written in Python",
       externalUrl: "https://github.com/chrisfishbob/spark",
@@ -24,22 +34,12 @@ function Projects() {
       
     },
     {
-      id: 3,
+      id: 4,
       title: "ReactJS Personal Site",
       subtitle: "You're Looking At It Now",
       externalUrl: "https://github.com/chrisfishbob/chris-site",
       imageUrl:
         "http://d34316robnoe1k.cloudfront.net/nested.jpg",
-      openNewTab: true,
-      
-    },
-    {
-      id: 4,
-      title: "LightBlue",
-      subtitle: "Java Chess GUI && Move Generation",
-      externalUrl: "https://github.com/chrisfishbob/LightBlue",
-      imageUrl:
-        "http://d34316robnoe1k.cloudfront.net/chess.jpeg",
       openNewTab: true,
       
     },
